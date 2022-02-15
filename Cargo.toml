@@ -1,0 +1,28 @@
+[package]
+name = "mapbox-gl-native-rs"
+version = "0.1.0"
+authors = ["Tony Zhang <healthytony@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.sdl2]
+version = "0.32.2"
+features = ["bundled"]
+
+[build-dependencies]
+walkdir = "2.1"
+
+[dependencies]
+glutin = "0.21.2"
+gfx = "0.18.2"
+gfx_device_gl = "0.16.2"
+gfx_text = "0.26.0"
+gfx_window_glutin = "0.31.0"
+image = "0.22.3"
+failure = "0.1.6"
+reqwest = "0.9.22"
+serde = "1.0.103"
+serde_json = "1.0.44"
+threadpool = "1.7.1"
+
