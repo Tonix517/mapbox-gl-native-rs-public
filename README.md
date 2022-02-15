@@ -1,8 +1,10 @@
-# mapbox-gl-native-rs
+# mapbox-gl-native-rs-public
 
 ## Motivation
 
-A Rust re-implementation to https://github.com/mapbox/mapbox-gl-native
+A Rust re-implementation to https://github.com/mapbox/mapbox-gl-native. 
+
+Please note that some proprietary code has been removed, including some internal request endpoint URL, headers, tokens etc. So it should compile but not executable.
 
 Tony wants to:
 - Learn Rust
